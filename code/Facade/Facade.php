@@ -17,12 +17,12 @@ class Ali
 {
     function buy()
     {
-        echo "买入阿里股票";
+        echo "买入阿里股票<br/>";
     }
 
     function sell()
     {
-        echo "卖出阿里股票";
+        echo "卖出阿里股票<br/>";
     }
 }
 
@@ -71,8 +71,9 @@ class FacadeCompany
 
     function buy()
     {
-        $this->wanda = buy();
-        $this->ali ->buy();
+        $this->wanda ->buy();
+        $this->ali   ->buy();
+        $this->jingdong->buy();
     }
 
     function sell()

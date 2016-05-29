@@ -6,7 +6,7 @@
  * Time: 20:06
  */
 
-/**抽象化角色            抽象路
+/**抽象化角色  抽象路
  * Class AbstractRoad
  */
 abstract class AbstractRoad
@@ -55,7 +55,7 @@ class Jeep implements ICar
 {
     function Run()
     {
-        echo "其普车跑";
+        echo "普车跑";
     }
 }
 

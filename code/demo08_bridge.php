@@ -1,6 +1,6 @@
 <?php
 header("Content-type:text/html;charset=utf-8");
-require_once 'Bridge.php';
+require_once './Bridge/Bridge.php';
 
 $speedRoad=new SpeedRoad();
 $speedRoad->icar=new Car();

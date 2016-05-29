@@ -89,14 +89,14 @@ class BlogFactory
         {
             try
             {
-                echo "我是新创建的<br/>:";
+                echo "我是新创建的:<br/>";
                 $class = new ReflectionClass($name);
                 $this->model[$name] = $class -> newInstance();
                 return $this->model[$name];
             }
             catch (ReflectionException $e)
             {
-                echo "<span style='color: #ff0000;'>你要求的对象不能别创建！</span><br>";
+                echo "<span style='color: #ff0000;'>你要求的对象不能被创建！</span><br>";
                 return null;
             }
         }

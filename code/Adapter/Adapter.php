@@ -29,17 +29,19 @@ class Forward implements IPlayer
 {
     function Attack()
     {
-        // TODO: Implement Attack() method.
         echo "前锋攻击！<br/>";
     }
 
     function Defense()
     {
-        // TODO: Implement Defense() method.
-        echo "前锋防御！";
+        echo "前锋防御！<br/>";
     }
 }
 
+/**
+ * 中锋
+ * Class Center
+ */
 class Center implements IPlayer
 {
     function Attack()
